@@ -6,11 +6,20 @@
 //
 
 import XCTest
+import RxCocoa
+import RxSwift
 @testable import MVVMTrainingApp
 
 class MVVMTrainingAppTests: XCTestCase {
     
-    var _manager = APICalling()
+   
+//    
+    func test_ApiManager_Valid(){
+        let apiCalling = APICalling()
+        let request =  APIRequest()
+        let result : Observable<[countryListModel]> = apiCalling.send(apiRequest: request)
+        XCTAssertNotNil(result)
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

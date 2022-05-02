@@ -18,6 +18,7 @@
 		1859DEB627E0776D00597F1E /* MVVMTrainingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DEB527E0776D00597F1E /* MVVMTrainingAppUITestsLaunchTests.swift */; };
 		1859DEC827E0852D00597F1E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DEC727E0852D00597F1E /* DataModel.swift */; };
 		1859DECA27E0853C00597F1E /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859DEC927E0853C00597F1E /* DataLoader.swift */; };
+		18E69A31280D832B008F6197 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E69A30280D832B008F6197 /* Constant.swift */; };
 		4014DF77597954E4C59391E5 /* Pods_MVVMTrainingApp_MVVMTrainingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE6056757DE90B4795A634F /* Pods_MVVMTrainingApp_MVVMTrainingAppUITests.framework */; };
 		ACFA0CF381B56B59E3EE1A81 /* Pods_MVVMTrainingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3444253646FEFA2526AED647 /* Pods_MVVMTrainingApp.framework */; };
 		CFD1363DFD1F57873A601460 /* Pods_MVVMTrainingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667025858FD874CE0FCB03D3 /* Pods_MVVMTrainingAppTests.framework */; };
@@ -57,6 +58,7 @@
 		1859DEB527E0776D00597F1E /* MVVMTrainingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTrainingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1859DEC727E0852D00597F1E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		1859DEC927E0853C00597F1E /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		18E69A30280D832B008F6197 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3444253646FEFA2526AED647 /* Pods_MVVMTrainingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMTrainingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE6056757DE90B4795A634F /* Pods_MVVMTrainingApp_MVVMTrainingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMTrainingApp_MVVMTrainingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5352D24176431DEC2CCD1B38 /* Pods-MVVMTrainingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMTrainingApp.debug.xcconfig"; path = "Target Support Files/Pods-MVVMTrainingApp/Pods-MVVMTrainingApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				1859DE9227E0776600597F1E /* AppDelegate.swift */,
 				1859DE9427E0776600597F1E /* SceneDelegate.swift */,
+				18E69A30280D832B008F6197 /* Constant.swift */,
 				1859DE9B27E0776C00597F1E /* Assets.xcassets */,
 				1859DE9D27E0776C00597F1E /* LaunchScreen.storyboard */,
 				1859DEA027E0776C00597F1E /* Info.plist */,
@@ -457,6 +460,7 @@
 				1859DEC827E0852D00597F1E /* DataModel.swift in Sources */,
 				1859DE9327E0776600597F1E /* AppDelegate.swift in Sources */,
 				1859DE9527E0776600597F1E /* SceneDelegate.swift in Sources */,
+				18E69A31280D832B008F6197 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
